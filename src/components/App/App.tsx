@@ -5,7 +5,7 @@ import MovieGrid from "../MovieGrid/MovieGrid";
 import Loader from "../Loader/Loader";
 import ErrorMessage from "../ErrorMessage/ErrorMessage";
 import MovieModal from "../MovieModal/MovieModal";
-import { fetchMovies } from "../../services/movieServices";
+import { fetchMovies } from "../../services/movieService";
 
 import "./App.module.css";
 import { Movie } from "../../types/movie";
