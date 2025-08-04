@@ -45,7 +45,7 @@ function App() {
   return (
     <div>
       <Toaster />
-      <SearchBar onSubmit={handleSearch} />
+      <SearchBar action={handleSearch} />
       {loading && <Loader />}
       {error && <ErrorMessage />}
       {movies.length > 0 && !loading && !error && (
